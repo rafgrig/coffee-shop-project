@@ -58,7 +58,7 @@
       align-items: center;
     }
     body{
-      background-image: url(https://img.freepik.com/free-vector/hand-drawn-coffee-shop-pattern-background_23-2150849907.jpg?t=st=1729625056~exp=1729628656~hmac=45f6522d7da47abcd6c19431d519136436a799320a5b6a9d95afa8ab17ab4f53&w=2000);
+      background-image: url(./images/matt-hoffman-72qDM1TA5p8-unsplash\ 1\ \(1\).jpg);
       background-repeat: no-repeat;
       background-position: center;
       background-attachment: fixed;
@@ -77,7 +77,7 @@
    }
 
   .card{
-    background-color: rgb(229, 255, 212);
+    background-color: transparent;
     padding: 20px;
     margin: 20px;
     border-radius: 45px;
@@ -85,18 +85,54 @@
 
    .card > img{
     width: calc(100% - 20px);
+    margin-bottom: -100px;
    }  
 
+   .card h3{
+    color: #BAD99C;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 30px;
+   }
+
+#priceParagraph{
+    display: inline-block;
+    color: #fffdff;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+
+   #ratingParagraph{
+    color: #fffdff;
+    font-weight: 200;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    margin-top: 5px;
+   }
+
+   #bacw{
+    background-color: rgb(52, 18, 18);
+    height: 200px;
+    padding: 10px;
+    padding-top: 90px;
+    border-radius: 20px;
+   }
+
+
    #orederButton1{
-    background-color: rgb(100, 255, 206);
+    background-color: rgb(195, 255, 236);
+    color: rgb(131, 152, 131);
     border: none;
-    border-radius: 35px;
+    border-radius: 12px;
     padding: 10px;
     margin-top: 5px;
+    margin-left: 20px;
     font-size: larger;
     cursor: pointer;
     width: 80px;
-    height: 5%;
+    height: 40px;
    }
 
    #orederButton1:active{
@@ -105,10 +141,7 @@
 
    #orederButton1:hover{
     background-color: rgb(162, 255, 225);;
-   }
-
-   #espresso{
-    font-size: 1px;
+    color: rgb(113, 149, 113);
    }
 
    /* Abot Us CSS */
@@ -126,7 +159,8 @@
     width: 30%;
     font-size: 25px;
     text-align: left;
-    margin-left: 20px;
+    margin-top: 30px;
+    margin-left: -150px;
    }
 
    .containerAboutUs > img{
