@@ -7,9 +7,7 @@
     position: sticky;
     top: 0;
       background-color: #333;
-      overflow: hidden;
-      /* margin:0px; */
-      /* padding: 0px; */
+      width: 100%;
     }
     #search{
       border-radius: 75px;
@@ -70,22 +68,24 @@
       color: rgb(255, 255, 255);
     }
    .cards{
+    display: flex;
+    align-items: center;
     color: rgb(37, 95, 76);
     padding: 0.8%;
-    margin: 20px;
-    width: 28%;
+    /* margin: 20px; */
+    width: 1000px;
    }
 
   .card{
-    background-color: transparent;
     padding: 20px;
-    margin: 20px;
+    /* margin: 20px; */
     border-radius: 45px;
    }
 
    .card > img{
-    width: calc(100% - 20px);
+    width:100%;
     margin-bottom: -100px;
+    margin-left: 10px;
    }  
 
    .card h3{
@@ -115,6 +115,7 @@
    #bacw{
     background-color: rgb(52, 18, 18);
     height: 200px;
+    width: 100%;
     padding: 10px;
     padding-top: 90px;
     border-radius: 20px;
