@@ -37,6 +37,16 @@
       display: flex;
       justify-self: left;
       margin: 20px;
+      width: 100px;   
+    }
+
+    #loopImage{
+      position: absolute;
+      height: 43px;
+      width: 40px;
+      left: 670px;
+      bottom: 1px;
+      top: 23px;
     }
 
     #logo{
@@ -78,12 +88,11 @@
 
   .card{
     padding: 20px;
-    /* margin: 20px; */
-    border-radius: 45px;
-   }
+     }
 
    .card > img{
-    width:100%;
+    height: 180px;
+    width: 200px;
     margin-bottom: -100px;
     margin-left: 10px;
    }  
@@ -158,16 +167,46 @@
    .firstTextForAboutUs {
     display: flex;
     align-items: center;
-    width: 20%;
-    max-width: 500px;
+    width: 70%;
     font-weight: 100;
-    font-size: 25px;
+    font-size: 30px;
     text-align: left;
-    margin-left: -8.5%;
-    /* margin-top: 10%; */
+    margin-left: -16%;
    }
 
    .containerAboutUs > img{
     margin-left: 200px;
     height: 650px;
+   }
+
+   .firstTitleAboutUs{
+    display: flex; 
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    position: relative;
+    top: 100px;
+   }
+
+   #readMoreButton{
+    justify-content: center;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    height: 100%;
+    width: 13%;
+    cursor: pointer;
+    padding: 15px;
+      position: relative;
+    top: 500px;
+    right:50%;
+   }
+
+   #readMoreButton:active{
+    background-color: #494949;
+    color: rgb(197, 197, 197);
    }
