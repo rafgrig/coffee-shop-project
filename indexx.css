@@ -351,3 +351,18 @@ cursor: pointer;
 width: 36px;
 height: 36px;
 }
+
+/* News CSS */
+
+.containerNews{
+  background-color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 1000px;
+}
+
+#secondNewsParagraph{
+  width: 50%;
+  font-size: 40px;
+  margin-top: -640px;
+  margin-left: 20px;
+}
